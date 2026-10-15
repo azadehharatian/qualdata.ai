@@ -249,7 +249,7 @@ const stageData = {
     num: '01',
     pill: 'Stage 1 of 6',
     clause: 'ISO/IEC 5259-4 Clause 6.1',
-    clauseUrl: 'https://www.iso.org/standard/81624.html',
+    clauseUrl: 'https://www.iso.org/publication/PUB200525.html',
     title: 'Data Sourcing & Ingestion Validation',
     desc: 'Verify ingestion sources, schema compatibility, cryptographic provenance hashes, and licensing rights before records enter pipeline staging.',
     checkpoints: [
@@ -276,7 +276,7 @@ const stageData = {
     num: '02',
     pill: 'Stage 2 of 6',
     clause: 'ISO/IEC 5259-4 Clause 6.2',
-    clauseUrl: 'https://www.iso.org/standard/81624.html',
+    clauseUrl: 'https://www.iso.org/publication/PUB200525.html',
     title: 'Data Profiling & Preprocessing',
     desc: 'Deep structural profiling for null distributions, unexpected categorical cardinatlity, multimodal outliers, and data type discrepancies.',
     checkpoints: [
@@ -303,7 +303,7 @@ const stageData = {
     num: '03',
     pill: 'Stage 3 of 6',
     clause: 'ISO/IEC 5259-4 Clause 6.3',
-    clauseUrl: 'https://www.iso.org/standard/81624.html',
+    clauseUrl: 'https://www.iso.org/publication/PUB200525.html',
     title: 'Annotation & Labeling Consistency',
     desc: 'Audit human and synthetic annotations for inter-rater reliability, systematic labeling bias, semantic contradictions, and boundary ambiguity.',
     checkpoints: [
@@ -330,7 +330,7 @@ const stageData = {
     num: '04',
     pill: 'Stage 4 of 6',
     clause: 'ISO/IEC 5259-2 Measures',
-    clauseUrl: 'https://www.iso.org/standard/81622.html',
+    clauseUrl: 'https://www.iso.org/publication/PUB200525.html',
     title: 'Standardized Quality Measurement',
     desc: 'Formal calculation of ISO/IEC 5259 Part 2 quantitative metrics: Completeness, Accuracy, Consistency, Credibility, and Currentness.',
     checkpoints: [
@@ -357,7 +357,7 @@ const stageData = {
     num: '05',
     pill: 'Stage 5 of 6',
     clause: 'ISO/IEC 5259-6 Assessment',
-    clauseUrl: 'https://www.iso.org/standard/85580.html',
+    clauseUrl: 'https://www.iso.org/publication/PUB200525.html',
     title: 'Verification & Automated Error Repair',
     desc: 'Execute ISO 5259 Part 6 assessment methodologies, with AI-driven constraint repair to resolve noise and balance training datasets.',
     checkpoints: [
@@ -384,7 +384,7 @@ const stageData = {
     num: '06',
     pill: 'Stage 6 of 6',
     clause: 'ISO/IEC 5259-5 Curated',
-    clauseUrl: 'https://www.iso.org/standard/85579.html',
+    clauseUrl: 'https://www.iso.org/publication/PUB200525.html',
     title: 'Model Training Ingestion & Certification',
     desc: 'Verify cross-split leakage isolation between train, validation, and test partitions, followed by ISO/IEC 5259 compliance certificate issuance.',
     checkpoints: [

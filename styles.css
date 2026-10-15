@@ -625,48 +625,6 @@ input, select, textarea { font-family: inherit; }
   100% { transform: translateX(-50%) translateY(12px); opacity: 0; }
 }
 
-/* ── Trusted By Section ─────────────────────────────────────── */
-.trusted-section {
-  padding: 44px 0;
-  background: var(--bg-secondary);
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-}
-
-.trusted-label {
-  text-align: center;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
-  margin-bottom: 24px;
-}
-
-.trusted-logos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-
-.trusted-logo {
-  font-weight: 700;
-  font-size: 1.05rem;
-  color: var(--text-muted);
-  padding: 8px 18px;
-  background: #FFFFFF;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
-  transition: var(--transition);
-}
-.trusted-logo:hover {
-  color: var(--blue);
-  border-color: rgba(37, 99, 235, 0.3);
-  transform: translateY(-2px);
-}
 
 /* ── ISO Standard Section ───────────────────────────────────── */
 .iso-section {
